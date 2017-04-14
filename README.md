@@ -1,3 +1,3 @@
-# Calafskas perl discord bot
-A Discord bot programmed in ruby :).
-Its already compiled , you just need to run the ruby code ^u^
+# wew
+A wew programmed in wew :).
+Its already wew , you just wew to wew the wew ^wew^
