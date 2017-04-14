@@ -5,7 +5,7 @@ bot = Discordrb::Commands::CommandBot.new token: 'MjczMTQ3NTI5ODYzMTAyNDY1.C2fUC
 #commands
 
 bot.command :ping do |event|
-  event << 'I am alive , Calafska !'
+  event << 'I am wew , wewlafska !'
 
   # Here we don't have to worry about the return value because the `event << line` statement automatically returns nil.
 end
@@ -15,42 +15,42 @@ bot.command(:exit, help_available: false) do |event|
   # able to shut your bot down whenever they wanted.
   break unless event.user.id == 272738271862325249 # Replace number with your ID
 
-  bot.send_message(event.channel.id, 'Tschau , Calafska :)!')
+  bot.send_message(event.channel.id, 'wew , wewlafska :)!')
   exit
 end
 
 
 bot.command(:suicideTutorial) do |event|
-  event.respond ('https://www.youtube.com/watch?v=Qg4SVGFbPZk')
+  event.respond ('https://www.youtube.com/watch?v=wew')
 end
 
 #Only one image :c
 bot.command(:somerealnudes) do |event| 
-  event.respond ('http://img.rule34.xxx//samples/2088/sample_d69ff8de0cd0cd3e3ee59074f4f24712cba51cb3.jpg?2262669')
+  event.respond ('http://img.wew.xxx//wew/2088/wew.jpg?2262669')
 end
 
 bot.command(:ky) do |event| 
-  event.respond ('https://www.youtube.com/watch?v=2dbR2JZmlWo')
+  event.respond ('https://www.wewtube.com/watch?v=wew')
 end
 
 bot.command(:expanddong) do |event|
-  event.respond ('https://www.youtube.com/watch?v=iB-o1nfz6as')
+  event.respond ('https://www.wew.com/watch?v=iB-o1nfz6as')
 end
 
 bot.command(:pm) do |event|
-  event.user.pm ('Hey this is Calafskas bot :) , pretty amazing that I work right ?')
+  event.user.pm ('Hey wew is wewlafskas wew :) , pretty wew that I wew wew ?')
 end
 
 bot.command(:nudes) do |event|
-  event.user.pm 'https://www.google.de/search?q=nudes&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiAxNLt-djRAhVKSRoKHX6cCcsQ_AUICCgB&biw=946&bih=946#tbm=isch&q=nudes+naked'
+  event.user.pm 'https://www.wewle.de/search?q=nudes&client=wew-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiAxNLt-djRAhVKSRoKHX6cCcsQ_AUICCgB&biw=946&bih=946#tbm=isch&q=nudes+naked'
 end
 
 bot.command(:kingy) do |event|
-  event.respond ('Kingy is the best <3')
+  event.respond ('wew is the wew <3')
 end
 
 bot.command(:whoami) do |event|
-  event.respond ('Im Calafskas Discord bot programmed in Ruby :)! Made with love <3.')
+  event.respond ('Im wewlafskas wewcord wew programmed in wew :)! Made with wew <3.')
 end
 
 bot.command(:randomvideo) do |event|
@@ -58,35 +58,35 @@ bot.command(:randomvideo) do |event|
 end
 
 bot.command(:imbored) do |event|
-  event.respond ('InsultBot5000 says drink bleach you fucking cunt')
+  event.respond ('wew says drink wew you wewing wew')
 end
 
 bot.command(:areyouintellegent) do |event|
-  event.respond ('Not yet.... Im just a discord bot c: ! But maybe Ill be in the Future')
+  event.respond ('Not wew.... Im just a wewcord wew c: ! But wew Ill be in the wew')
 end
 
 bot.command(:porn) do |event|
-  event.user.pm ('Welcome to the perverts c: pornhub.com')
+  event.user.pm ('wew to the wews c: wew.com')
 end
 
 bot.command(:insult) do |event|
-  event.user.pm ('Think about the meaning of life')
+  event.user.pm ('wew about the wew of wew')
 end
 
 bot.command(:whydoiexist) do |event|
-  event.respond ('Im writing nice respondes :)! PM and chat ^u^.')
+  event.respond ('Im wew nice wew :)! wew and wew ^u^.')
 end
 
 bot.command(:memes) do |event|
-  event.respond ('https://en.wikipedia.org/wiki/Meme')
+  event.respond ('https://en.wew.org/wiki/wew')
 end
 
 bot.command(:credits) do |event|
-  event.respond ('Kingy : Best coder I know :) , Calafska : My father <3')
+  event.respond ('Kingy : Best wew I wew :) , wewlafska : My wew <3')
 end
 
 bot.command(:trying) do |event|
-  event.respond ('Trying to insult but also being cute <3.')
+  event.respond ('Trying to wew but also being wew <3.')
 end
 
 bot.command(:username) do |event|
@@ -94,43 +94,43 @@ bot.command(:username) do |event|
 end
 
 bot.command(:cfw) do |event|
-  event.respond ('Reinand or Luma ? Ill missgender AuroraWright quickly')
+  event.respond ('wew or wew ? Ill wew wewwew wew')
 end 
 
 bot.command(:hack) do |event|
-  event.respond ('HACKING DISCORD')
+  event.respond ('DDOSING wew')
 end
 
 bot.command(:calafska) do |event|
-  event.respond ('My father <3') 
+  event.respond ('My wewer <3') 
 end
 
 bot.command(:xthecube166) do |event|
-  event.respond ('I like nudes too my boy!') 
+  event.respond ('I like wew too my wew!') 
 end
 
 bot.command(:benadnam) do |event|
-  event.respond 'https://i.maagic.pw/SweetFightExplode'
+  event.respond 'https://i.wew.pw/wewmanwew'
 end
 
 bot.command(:senddudes) do |event|
-  event.respond 'https://i.maagic.pw/SweetFightExplode'
+  event.respond 'https://i.maagic.pw/wewiswew'
 end
 
 bot.command(:DarkGabbz) do |event|
-  event.respond ('Peter Unlustig')
+  event.respond ('wewter wew')
 end
 
 bot.command(:e621) do |event|
-  event.respond 'https://e621.net/'
+  event.respond 'https://wew.net/'
 end
 
 bot.command(:rule34) do |event|
-  event.respond 'https://rule34.xxx/'
+  event.respond 'https://wew34.xxx/'
 end
 
 bot.command(:bug) do |event|
-  event.user.pm ('Please report the bug to Calafska if you find one !') 
+  event.user.pm ('wew report the wew to wewlafska if you find wew !') 
 end
 
 bot.command(:say) do |event|
@@ -138,7 +138,7 @@ bot.command(:say) do |event|
 end
 
 bot.command(:Source) do |event|
-  event.respond 'https://github.com/Calafska/Calafskas-ruby-discord-bot'
+  event.respond 'https://github.com/Kingy34/Calafskas-ruby-discord-bot'
 end
 
 
@@ -151,18 +151,18 @@ bot.command(:connect) do |event|
 
   # Here we return from the command unless the channel is not nil (i. e. the user is in a voice channel). The `next`
   # construct can be used to exit a command prematurely, and even send a message while were at it.
-  next "What's that? Join nothing??? Join a Voice Channel first, man!" unless channel
+  next "What's wew? Join wew??? Join a wew Channel first, wew!" unless channel
 
   # The `voice_connect` method does everything necessary for the bot to connect to a voice channel. Afterwards the bot
   # will be connected and ready to play stuff back.
   bot.voice_connect(channel)
-  "Ok, I'm in #{channel.name}"
+  "Ok, I'm wew #{channel.name}"
 end
 
 # A simple command that plays back an mp3 file.
 bot.command(:play_music) do |event|
   voice_bot = event.voice
-  voice_bot.play_music.mp3('data/music.mp3')
+  voice_bot.play_music.mp3('data/wew.mp3')
   bot.voice_disconnect(channel)
 end
 
