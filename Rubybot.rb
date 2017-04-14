@@ -1,6 +1,6 @@
 require 'discordrb'
 
-bot = Discordrb::Commands::CommandBot.new token: 'MjczMTQ3NTI5ODYzMTAyNDY1.C2fUCw.x3lGYofx9P7d4LNjAx-rwpI15hM', client_id: 273147529863102465, prefix: 'c-'
+bot = Discordrb::Commands::CommandBot.new token: 'wew', client_id: 273147529863102465, prefix: 'c-'
 
 #commands
 
